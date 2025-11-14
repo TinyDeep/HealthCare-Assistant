@@ -17,15 +17,15 @@ const sessionPath = sessionClient.sessionPath(projectId, sessionId)
 
 const talkToChatbot = async (message) => {
   console.log('message ' + message)
-  // const botRequest = {
-  //   session: sessionPath,
-  //   queryInput: {
-  //     text: {
-  //       text: message,
-  //       languageCode: languageCode,
-  //     },
-  //   },
-  // }
+  const botRequest = {
+    session: sessionPath,
+    queryInput: {
+      text: {
+        text: message,
+        languageCode: languageCode,
+      },
+    },
+  }
 
   let response = await sessionClient
     .detectIntent(botRequest)
