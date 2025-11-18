@@ -1,26 +1,6 @@
 # 💕 AI-HealthCare-Assistant
 <div id="top" align="center">
   <img src="https://user-images.githubusercontent.com/78981558/155504905-3bd2d8db-64f5-413c-b7d2-d4e7842ddad8.png" width="250" height="250"/>
-  <div id="badges">
-
-   <a href="https://github.com/ahlem-phantom/AI-HealthCare-Assistant/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/ahlem-phantom/AI-HealthCare-Assistant.svg?style=for-the-badge"/>
-  </a>
-
-  <a href="https://github.com/ahlem-phantom/AI-HealthCare-Assistant/issues">
-    <img src="https://img.shields.io/github/issues/ahlem-phantom/AI-HealthCare-Assistant.svg?style=for-the-badge"/>
-  </a>
-
-  <a href="https://github.com/ahlem-phantom/AI-HealthCare-Assistant/stargazers">
-    <img src="https://img.shields.io/github/stars/ahlem-phantom/AI-HealthCare-Assistant.svg?style=for-the-badge"/>
-  </a>
-   <a href="https://github.com/ahlem-phantom/AI-HealthCare-Assistant/network/members">
-      <img src="https://img.shields.io/github/forks/ahlem-phantom/AI-HealthCare-Assistant.svg?style=for-the-badge"/>
-    </a>
-   <a href="https://www.youtube.com/watch?v=Kxqa83Us1m4">
-    <img src="https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
-  </a>
-  </div>
 <h3 align="center">AI-HealthCare-Assistant</h3>
   
   <p align="center">
@@ -143,7 +123,7 @@ _In order to install the app you need to follow the instructions below :_
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/ahlem-phantom/AI-HealthCare-Assistant.git
+   git clone https://github.com/TinyDeep/HealthCare-Assistant.git
    ```
 2. Install NPM packages dependencies 
    ```sh
