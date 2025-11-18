@@ -13,19 +13,19 @@ const get_appointment = async (req, res) => {
     res.status(500).send(error);
   }
 };
-// const appointment_create_post = async (req, res) => {
-//     const User = req.params.id;
-//     const {Firstname,Lastname,Email, Phone, StartDate, EndDate} = req.body;
+const appointment_create_post = async (req, res) => {
+    const User = req.params.id;
+    const {Firstname,Lastname,Email, Phone, StartDate, EndDate} = req.body;
   
-//     try {
-//       const appointment = await Appointement.create({Firstname,Lastname,Email, Phone, StartDate, EndDate , User});
-//       res.status(201).json({ appointment: appointment});
-//     }
-//     catch(err) {
-//       const errors = handleErrors(err);
-//       res.status(400).json({ errors });
-//     }
-// };
+    try {
+      const appointment = await Appointement.create({Firstname,Lastname,Email, Phone, StartDate, EndDate , User});
+      res.status(201).json({ appointment: appointment});
+    }
+    catch(err) {
+      const errors = handleErrors(err);
+      res.status(400).json({ errors });
+    }
+};
 const appointment_delete = (req, res) => {
     const id = req.params.id;
    
